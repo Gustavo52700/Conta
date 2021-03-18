@@ -10,7 +10,7 @@ public class Programa {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         Conta conta = new Conta();
-        Cliente cliente = new Cliente("Breno", conta);
+        Cliente cliente = new Cliente("Borges ", conta);
         int opcao = -1;
 
         while (opcao != 0) {
